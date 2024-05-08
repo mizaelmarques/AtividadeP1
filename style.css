@@ -1,0 +1,261 @@
+
+#container > ul { 
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#container > ul > li > a {
+    color: #ffa600;
+    font-family: minhafonte;
+    font-style: normal;
+	font-size: 20px;
+}
+
+#container > ul > li > a:hover {
+    color: #e90e0e;
+    transition: 1s;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+	background-color: #380303;
+    
+}
+
+
+
+
+
+
+.maingrid {
+	display: grid;
+}
+
+.maingrid {
+	max-width: 750px;
+	margin: 0 auto;
+	border: 0px solid #290cac;
+}
+
+.maingrid {
+	grid-template-columns: 750px;
+    grid-template-rows: 100px 120px 10px ;
+}
+
+
+.biblioteca {
+	background-image: url(img/biblioteca-editado.jpg);
+	width: 1349px;
+	height: 605px;
+}
+
+
+
+
+
+
+.grid2 {
+	display: grid;
+}
+
+.grid2 {
+	max-width: 750px;
+	margin: 0 auto;
+	border: 0px solid #290cac;
+}
+
+.grid2 {
+	grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 230px;
+}
+
+.item {
+	margin: 5px;
+	background: #25737dcb;
+	text-align: center;
+	font-size: 1.2em;
+    border-radius: 15px;
+	font-family: minhafonte;
+    
+}
+
+
+
+
+
+.imagem {
+	display: grid;
+}
+
+.imagem {
+	max-width: 500px;
+	margin: 0 auto;
+	border: 0px solid #290cac;
+}
+
+.imagem {
+	grid-template-columns: 250px 250px;
+    grid-template-rows: 230px 230px;
+
+}
+
+.img-inlustrativas {
+	
+	background-image: url(img/sala.jpg);
+	width: 1349px;
+	height: 605px;
+
+  filter: blur(px);
+}
+
+.foto {
+	font-family: minhafonte;
+	text-align: justify;
+	font-size: 1.00em;
+	font-weight: normal;
+    color: #f8a100;
+
+}
+
+
+
+
+
+footer {
+    text-align: center;
+	font-size: 1.25em;
+	font-weight: normal;
+    color: white;
+	background-color: #001824;
+}
+
+
+.grid3 {
+	display: grid;
+}
+.grid3 {
+	max-width: 450px;
+	margin: 0 auto;
+	border: 0px solid #290cac;
+}
+
+.grid3 {
+	grid-template-columns: 500px;
+    grid-template-rows: 55px 55px 65px 120px 70px;
+}
+
+.formulario {
+	background-color:#01283b ;
+	width: 1349px;
+	height: 605px;
+}
+
+.form {
+	margin: 15px;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	width: 0px;
+	font-family: minhafonte;
+}
+
+input {
+	width: 400px;
+	height: 25px;
+
+}
+
+.grid4 {
+	display: grid;
+}
+
+.grid4 {
+	max-width: 300px;
+	margin: 0 auto;
+	border: 0px solid #290cac;
+	font-family: minhafonte;
+}
+
+.grid4 {
+	grid-template-columns: 300px;
+    grid-template-rows: 30px 60px 48px;
+}
+
+.item1 {
+	margin: 5px;
+	text-align: center;
+	font-size: 1.0em;
+    border-radius: 10px;
+	
+    
+}
+
+.fim {
+    margin: 5px;
+	text-align: center;
+	font-size: 0.8em;
+    border-radius: 10px;
+	color: #e4ab42;
+
+}
+
+
+
+
+
+h1 {
+	font-family: minhafonte;
+	text-align: center;
+	font-size: 1.70em;
+	font-weight: normal;
+    color: #fdda11f8;
+
+}
+
+h2 {
+    font-family: minhafonte;
+	text-align: center;
+	font-size: 1.70em;
+	font-weight: normal;
+    color: #f8a100;
+}
+
+h3 {
+    font-family: minhafonte;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: normal;
+    color: #ffffff;
+}
+
+body {
+	font-family: monospace;
+	color: white;
+	margin: 0px;
+	padding-bottom: 0px;
+    background-attachment: fixed;
+
+
+}
+
+.corte {
+	background-color: black;
+	margin: 0px;
+	padding-bottom: -1px;
+	font-family: minhafonte3;
+	font-size: 1.005em;
+	color: #f8a100;
+	
+}
+
+@font-face {
+	font-family: minhafonte;
+	src: url(fonte/Hamptons\ BF.ttf);
+ }
+
+ @font-face {
+	font-family: minhafonte3;
+	src: url(fonte/FMBolyarPro-Ornaments.ttf);
+ }
