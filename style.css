@@ -21,6 +21,7 @@
     display: flex;
     justify-content: center;
 	background-color: #380303;
+	width: 1349px;
     
 }
 
@@ -247,6 +248,7 @@ body {
 	font-family: minhafonte3;
 	font-size: 1.005em;
 	color: #f8a100;
+	width: 1349px;
 	
 }
 
